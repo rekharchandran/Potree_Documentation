@@ -6,15 +6,19 @@ Point Budget
 ==================================
 
 The point budget limits the number of points loaded and rendered at any given time, which helps to adapt performance requirements to the capabilities of different hardware. Recommended values are between 500.000 and 10.000.000.
-   
 
-
+ 
 Field of View
 ==================================
 
 To control model elements to be included within the scene the field of view can be adjusted. Default value is set to 55 degrees.
 
-.. image:: /images/pointbudget.png
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Pointbudget.mp4" width ="500" height="500"></video>
+  </center>
+
 
 Eye Dome-lighting
 ==================================
@@ -26,6 +30,14 @@ Eye Dome-lighting group objects, shade their outlines and enhances depth percept
 It is useful for recognition and measurement of structures within a model. It can be modified by adjusting Radius, Strength, and Opacity.
 By default, Eye Dome-Lighting is enabled on Potree 3D viewer, but it can be disabled by clicking on the enable option.
 
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Eyedom_lightning.mp4" width ="500" height="500"></video>
+  </center>
+
+
 Background
 ==================================
 
@@ -36,6 +48,13 @@ Potree 3D viewed background can be modified with following available options:
 *  Gradient
 *  Black and white
 
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Back_ground.mp4" width ="500" height="500"></video>
+  </center>
+
+
 
 Splat Quality 
 ==================================
@@ -44,3 +63,9 @@ Min node size - impacts the point density of the nodes represented.
 Box - Displays the boxes of the nodes.
 Lock view - Lock the point cloud view, preventing to load or unload points to the model.
 
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Splat_quality.mp4" width ="500" height="500"></video>
+  </center>
