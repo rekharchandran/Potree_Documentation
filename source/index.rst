@@ -12,6 +12,8 @@ Potree Viewer
 
 Use Potree Converter to convert point cloud data to a format compatible with Potree Viewer.
 
+The main purpose of the potree is to make a web accessible version of the point clouds.
+
 How to View Data
 ----------------------------
 
@@ -21,7 +23,7 @@ How to View Data
 * Right Click, hold, and move mouse pans in the scene
 
 
-
+https://cloud.capia.no/
 
 
 

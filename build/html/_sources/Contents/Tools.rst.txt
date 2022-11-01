@@ -19,7 +19,9 @@ This tool measures the tridimensional angle formed by the lines connecting 3 poi
 
 .. raw:: html
 
-<iframe src="../_static/Angle.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  <center>
+    <video controls src="../_static/Angle.mp4" width ="500" height="300"></video>
+  </center>
 
 
 
@@ -34,7 +36,7 @@ This tool highlights a selected point and display its XYZ coordinate. To start a
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Point.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Point.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -52,7 +54,7 @@ Further information such as total length can also be obtained from selecting thi
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Distance.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Distance.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -69,7 +71,7 @@ Further information can also be obtained from selecting this element under the s
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Height.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Height.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -88,7 +90,7 @@ Further information such as Circumference can also be obtained from selecting th
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Circle.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Circle.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -105,7 +107,7 @@ Further information can also be obtained from selecting this element under the s
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Azimuth.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Azimuth.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -120,7 +122,7 @@ Further information can also be obtained from selecting this element under the s
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Area.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Area.mp4" width ="500" height="300"></video>
   </center>
 
  
@@ -133,7 +135,7 @@ Further information can also be obtained from selecting this element under the s
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Volume_cube.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Volume_cube.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -146,7 +148,7 @@ Further information can also be obtained from selecting this element under the s
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Volume_sphere.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Volume_sphere.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -167,7 +169,7 @@ The save button in the upper right corner of the profile window will download a 
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Height_profile.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Height_profile.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -181,7 +183,7 @@ This tool creates an annotation label on a highlighted point on the model. To st
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Annotation.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Annotation.mp4" width ="500" height="300"></video>
   </center>
 
 
@@ -206,7 +208,7 @@ To remove the clipping volume or polygons click on the "Remove all measurements"
 .. raw:: html
 
   <center>
-    <video controls src="../_static/Clipping.mp4" width ="500" height="500"></video>
+    <video controls src="../_static/Clipping.mp4" width ="500" height="300"></video>
   </center>
 
 
