@@ -6,5 +6,8 @@ The Scene section displays a file tree containing all the scene elements. Elemen
 
 Each element within these groups have subtrees that can be selected to get more information and control its properties.
 
-For instance, point clouds properties can be modified to show elevation and the color ramp can be customized.
+
+.. image:: /images/scene.png
+   :width: 50%
+   :align: center
 

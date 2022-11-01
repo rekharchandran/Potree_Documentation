@@ -69,7 +69,9 @@ keep the settings at standard quality. It may be a good idea to move the point b
 your phone running smoothly.
 
 *Min node size - impacts the point density of the nodes represented*.
+
 *Box - Displays the boxes of the nodes*.
+
 *Lock view - Lock the point cloud view, preventing to load or unload points to the model*.
 
 
