@@ -9,14 +9,15 @@ Measurement
 Potree 3D viewer module provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or hiding the resulting measurement labels.
 
 Measurements are performed by use of left clicking the mouse on the desired points and right clicking is needed to terminate the process.
- 
 
+ 
 Angle
 ------------------------       
 .. image:: /images/angle.png
    :width: 100
 
-This tool measures the tridimensional angle formed by the lines connecting 3 points. To start a measurement, click on the angle icon, then left click on 3 point and the process will be automatically ended. 
+This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the angle icon, then left click on the third point and the process will be automatically ended.
+
 
 .. raw:: html
 
@@ -161,7 +162,7 @@ This tool creates a height profile formed by a line on the model. To start a mea
 
 When you mouse over the point cloud data, you should now see a red ball attached to your mouse cursor. This allows you to drop nodes and establish the location of your profile. When you want to finalize your profile double click on the last node. Once a profile is finalized, you can still change its location by clicking on the red nodes and dragging them to a different location.
 
-Further information and options, such as **Show 2d Profile**, can also been obtained from selecting this element under the scene section.
+Further information and options, such as ``Show 2d Profile``, can also been obtained from selecting this element under the scene section.
 
 A profile of the lidar data should now be visible at the bottom of the screen. The profile will also update in real time if you move the profile throughout the data.
 
@@ -191,19 +192,19 @@ This tool creates an annotation label on a highlighted point on the model. To st
 Remove measurements
 ----------------------------------
 
-This tool removes all measurements on the model. To remove all measurement, click on the "Remove measurements" icon.
+This tool removes all measurements on the model. To remove all measurement, click on the ``Remove all measurements``  icon.
 
 
 
 Clipping
 ==================================
-Point cloud can be clipped by selecting an area. Clipping options include None / Highlight / Inside /outside.
+Point cloud can be clipped by selecting an area. Clipping options include **None / Highlight / Inside /outside**.
 
 To clip a point cloud, click on the volume clip icon, place the cube on the model and relocate, rescale, and rotate to contain the desired area. Highlight is set by default as the clipping method. 
 
 If only the points contained within the cube needs to be displayed, click on "Inside", otherwise click on "Outside".
 
-To remove the clipping volume or polygons click on the "Remove all measurements" icon.
+To remove the clipping volume or polygons click on the ``Remove all clipping volumes`` icon.
 
 
 .. raw:: html
@@ -283,16 +284,5 @@ Compass
 -------------------------
 Compass button displays a compass on the upper right corner.
 
-Camera animation
--------------------------------
-The camera animation button - creates a camera animation path.
-
-Points on green line – defines position of camera
-
-Point on blue line – defines direction the camera is intended to be facing
-
-Position of the camera is defined by the points on the green line while the points in the blue line are the location towards the camera is intended to be facing.
-
-To create an animation, adjust the points for the camera locations and camera direction, then select the camera element under the Scene section to create more point, change animation speed or play the animation.
 
 

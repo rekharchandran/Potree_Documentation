@@ -41,6 +41,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Basic%20Usage%20Tools.html">Basic Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Appearence.html">Appearance</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#measurement">Measurement</a><ul>
@@ -67,7 +68,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#full-extent">Full extent</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#navigation-cube">Navigation cube</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#compass">Compass</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#camera-animation">Camera animation</a></li>
 </ul>
 </li>
 </ul>
@@ -109,7 +109,7 @@
 <section id="angle">
 <h3>Angle<a class="headerlink" href="#angle" title="Permalink to this heading"></a></h3>
 <a class="reference internal image-reference" href="../_images/angle.png"><img alt="../_images/angle.png" src="../_images/angle.png" style="width: 100px;" /></a>
-<p>This tool measures the tridimensional angle formed by the lines connecting 3 points. To start a measurement, click on the angle icon, then left click on 3 point and the process will be automatically ended.</p>
+<p>This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the angle icon, then left click on the third point and the process will be automatically ended.</p>
 <center>
   <video controls src="../_static/Angle.mp4" width ="500" height="300"></video>
 </center></section>
@@ -177,7 +177,7 @@ Further information can also be obtained from selecting this element under the s
 <p>The tool icon that looks like a multicolored M.
 This tool creates a height profile formed by a line on the model. To start a measurement, click on the Height profile icon and then form a line on the model by clicking on the desired points (two or more).</p>
 <p>When you mouse over the point cloud data, you should now see a red ball attached to your mouse cursor. This allows you to drop nodes and establish the location of your profile. When you want to finalize your profile double click on the last node. Once a profile is finalized, you can still change its location by clicking on the red nodes and dragging them to a different location.</p>
-<p>Further information and options, such as <strong>Show 2d Profile</strong>, can also been obtained from selecting this element under the scene section.</p>
+<p>Further information and options, such as <code class="docutils literal notranslate"><span class="pre">Show</span> <span class="pre">2d</span> <span class="pre">Profile</span></code>, can also been obtained from selecting this element under the scene section.</p>
 <p>A profile of the lidar data should now be visible at the bottom of the screen. The profile will also update in real time if you move the profile throughout the data.</p>
 <p>The save button in the upper right corner of the profile window will download a las file containing the points from the profile. This is useful for extracting the data you want to use for further analysis.</p>
 <center>
@@ -191,15 +191,15 @@ This tool creates a height profile formed by a line on the model. To start a mea
 </center></section>
 <section id="remove-measurements">
 <h3>Remove measurements<a class="headerlink" href="#remove-measurements" title="Permalink to this heading"></a></h3>
-<p>This tool removes all measurements on the model. To remove all measurement, click on the “Remove measurements” icon.</p>
+<p>This tool removes all measurements on the model. To remove all measurement, click on the <code class="docutils literal notranslate"><span class="pre">Remove</span> <span class="pre">all</span> <span class="pre">measurements</span></code>  icon.</p>
 </section>
 </section>
 <section id="clipping">
 <h2>Clipping<a class="headerlink" href="#clipping" title="Permalink to this heading"></a></h2>
-<p>Point cloud can be clipped by selecting an area. Clipping options include None / Highlight / Inside /outside.</p>
+<p>Point cloud can be clipped by selecting an area. Clipping options include <strong>None / Highlight / Inside /outside</strong>.</p>
 <p>To clip a point cloud, click on the volume clip icon, place the cube on the model and relocate, rescale, and rotate to contain the desired area. Highlight is set by default as the clipping method.</p>
 <p>If only the points contained within the cube needs to be displayed, click on “Inside”, otherwise click on “Outside”.</p>
-<p>To remove the clipping volume or polygons click on the “Remove all measurements” icon.</p>
+<p>To remove the clipping volume or polygons click on the <code class="docutils literal notranslate"><span class="pre">Remove</span> <span class="pre">all</span> <span class="pre">clipping</span> <span class="pre">volumes</span></code> icon.</p>
 <center>
   <video controls src="../_static/Clipping.mp4" width ="500" height="300"></video>
 </center></section>
@@ -246,14 +246,6 @@ This tool creates a height profile formed by a line on the model. To start a mea
 <section id="compass">
 <h3>Compass<a class="headerlink" href="#compass" title="Permalink to this heading"></a></h3>
 <p>Compass button displays a compass on the upper right corner.</p>
-</section>
-<section id="camera-animation">
-<h3>Camera animation<a class="headerlink" href="#camera-animation" title="Permalink to this heading"></a></h3>
-<p>The camera animation button - creates a camera animation path.</p>
-<p>Points on green line – defines position of camera</p>
-<p>Point on blue line – defines direction the camera is intended to be facing</p>
-<p>Position of the camera is defined by the points on the green line while the points in the blue line are the location towards the camera is intended to be facing.</p>
-<p>To create an animation, adjust the points for the camera locations and camera direction, then select the camera element under the Scene section to create more point, change animation speed or play the animation.</p>
 </section>
 </section>
 </section>
